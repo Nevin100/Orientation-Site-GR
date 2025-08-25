@@ -29,9 +29,9 @@ const features = [
   },
   {
     category: "🌐 Global Exposure",
-    title: "Sirf Local Nahi, Global Ja!",
+    title: "Sirf college tak Nahi, nation tak Ja!",
     details:
-      "20+ international chapters, collabs aur hackathons — Matlab GeekRoom ke through tu apna global naam bana lega. 🌍",
+      "20+ national chapters, collabs aur hackathons — Matlab GeekRoom ke through tu apna nation naam bana lega. 🌍",
     tutorialLink: "#",
   },
   {
