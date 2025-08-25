@@ -3,7 +3,7 @@ import { StackProvider, StackTheme } from "@stackframe/stack";
 import { stackServerApp } from "../stack";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Custom/Navbar";
+// import Navbar from "@/components/Custom/Navbar";
 import { ThemeProvider } from "@/components/Theme-Provider";
 import Footer from "@/components/Custom/Footer";
 
@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pitch Pal",
-  description: "A collaborative pitch deck builder.",
+  title: "GeekRoom MSIT ",
+  description: "A Technical society of MSIT",
 };
 
 export default function RootLayout({
@@ -43,7 +43,7 @@ export default function RootLayout({
               disableTransitionOnChange
             >
               <div className=" mx-auto ">
-                <Navbar
+                {/* <Navbar
                   items={[
                     { label: "Home", href: "/" },
                     { label: "Features", href: "#features" },
@@ -60,7 +60,7 @@ export default function RootLayout({
                   pillColor="#ffffff"
                   hoveredPillTextColor="#ffffff"
                   pillTextColor="#000000"
-                />
+                /> */}
               </div>
               {children}
               <Footer />

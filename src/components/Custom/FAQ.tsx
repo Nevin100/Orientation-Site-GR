@@ -1,62 +1,62 @@
 "use client";
 
 import {
-  BadgeDollarSign,
-  LayoutDashboard,
-  UserRoundCheck,
-  History,
-  FileText,
+  Users,
+  CalendarDays,
+  GraduationCap,
   Sparkles,
+  Code2,
+  Globe,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
 const faq = [
   {
-    icon: BadgeDollarSign,
-    question: "How does payment work?",
+    icon: Users,
+    question: "GeekRoom Orientation kya hai?",
     answer:
-      "Payments are handled securely through Razorpay. You’ll receive credits after payment, which can be used across our AI tools.",
+      "GeekRoom Orientation ek introductory event hai jahan naye members ko community, projects aur events ke baare me bataya jata hai. Yahaan tum apne seniors aur peers se directly connect kar sakte ho. 🎉",
   },
   {
-    icon: LayoutDashboard,
-    question: "Is the UI user-friendly?",
+    icon: CalendarDays,
+    question: "Events kitne hote hain?",
     answer:
-      "Yes, the platform has a sleek and modern UI designed to provide a seamless and smooth user experience.",
+      "Har semester me bahut events hote hain — hackathons, workshops, coding contests aur fun meets. Isme tumhe hands-on experience aur networking dono milta hai. 📅",
   },
   {
-    icon: UserRoundCheck,
-    question: "How can I use the tool?",
+    icon: GraduationCap,
+    question: "Kya beginners bhi join kar sakte hain?",
     answer:
-      "Simply log in to your account, and you’ll get access to all AI tools with proper guidance and easy-to-use features.",
+      "Bilkul! GeekRoom beginners-friendly hai. Hum mentorship aur guidance dete hain taaki tum basics se leke advanced development tak grow kar sako. 🚀",
   },
   {
-    icon: History,
-    question: "Will my work be saved?",
+    icon: Code2,
+    question: "Hackathons me kya seekhne ko milta hai?",
     answer:
-      "Yes, everything works smoothly and your history is automatically maintained so you can access past work anytime.",
+      "Hackathons tumhe real-world problem solving sikhaate hain. Teamwork, coding, pitching aur quick prototyping ka solid experience milta hai. 💻",
   },
   {
-    icon: FileText,
-    question: "Do I get a summary or pitch?",
+    icon: Globe,
+    question: "Kya GeekRoom ek global community hai?",
     answer:
-      "Absolutely! A complete AI-generated summary and pitch will be available for every project you work on.",
+      "Haan! GeekRoom ke 20+ active chapters worldwide hain. Tumhe international collabs, exposure aur networking ka chance milta hai. 🌍",
   },
   {
     icon: Sparkles,
-    question: "What makes this different?",
+    question: "GeekRoom unique kyun hai?",
     answer:
-      "The platform is fully AI-powered, extremely smooth, and easy to handle with download & export features built-in.",
+      "GeekRoom sirf ek society nahi, ek movement hai — coding + innovation + networking ka combo. Yahan tum seekhte ho, create karte ho aur apna best showcase karte ho. ✨",
   },
 ];
 
 const FAQ = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-6 py-12">
+    <div className="min-h-screen flex items-center justify-center px-6 py-16 bg-black">
       <div className="max-w-screen-lg">
         {/* Heading Animation */}
         <motion.h2
-          className="text-4xl md:text-5xl !leading-[1.15] font-bold tracking-tight text-center 
-          bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text text-transparent"
+          className="text-4xl md:text-5xl font-bold tracking-tight text-center 
+          bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -65,13 +65,13 @@ const FAQ = () => {
         </motion.h2>
 
         <motion.p
-          className="mt-3 text-lg text-center text-muted-foreground"
+          className="mt-3 text-lg text-center text-gray-400"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Quick answers about payments, usage, and features of our AI-powered
-          platform.
+          GeekRoom ke orientation, events, hackathons aur membership se related
+          sabhi sawaalon ke quick answers.
         </motion.p>
 
         {/* FAQ Cards */}
@@ -79,24 +79,27 @@ const FAQ = () => {
           {faq.map(({ question, answer, icon: Icon }, i) => (
             <motion.div
               key={question}
-              className="border p-6 rounded-xl bg-background/40 backdrop-blur-sm 
+              className="border border-white/10 p-6 rounded-xl bg-white/5 backdrop-blur-sm 
               shadow-md hover:shadow-xl transition-all duration-300 ease-out"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.15 }}
-              whileHover={{ scale: 1.04 }}
+              whileHover={{ scale: 1.05 }}
             >
-              <div className="h-10 w-10 flex items-center justify-center rounded-full bg-gradient-to-r from-violet-500 to-pink-500 text-white shadow-md">
+              <div
+                className="h-10 w-10 flex items-center justify-center rounded-full 
+              bg-gradient-to-r from-orange-500 to-green-500 text-white shadow-md"
+              >
                 <Icon className="w-5 h-5" />
               </div>
               <div
                 className="mt-5 mb-2 text-[1.35rem] font-semibold tracking-tight 
-              bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text text-transparent"
+              bg-gradient-to-r from-orange-400 to-green-500 bg-clip-text text-transparent"
               >
                 {question}
               </div>
-              <p className="text-muted-foreground">{answer}</p>
+              <p className="text-gray-300">{answer}</p>
             </motion.div>
           ))}
         </div>

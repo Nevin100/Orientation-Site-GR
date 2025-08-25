@@ -1,139 +1,110 @@
 "use client";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import {
-  CreditCard,
-  Cpu,
-  LineChart,
-  Workflow,
-  Save,
-  Sparkles,
-} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 const features = [
   {
-    icon: CreditCard,
-    title: "Seamless Payments",
-    description:
-      "Credits are added instantly after Razorpay payment. Use them across all our AI tools without interruptions.",
+    category: "🚀 Coding & Dev",
+    title: "Banega asli Developer",
+    details:
+      "GeekRoom join karne ka matlab hai hackathons jeetna, open-source contribute karna aur apne skills se duniya ko impress karna. ⚡",
+    tutorialLink: "#",
   },
   {
-    icon: Cpu,
-    title: "AI-Powered Tools",
-    description:
-      "Access powerful AI tools built for smooth workflows — from content generation to smart automation.",
+    category: "🎤 Networking",
+    title: "Connections hi Currency hai!",
+    details:
+      "Yaha tu 75k+ coders, mentors aur industry experts se milega. Collabs kar, internships crack kar aur apna LinkedIn glow-up dekh. 💼",
+    tutorialLink: "#",
   },
   {
-    icon: LineChart,
-    title: "Smart Insights",
-    description:
-      "Get AI-driven analytics, summaries, and instant feedback to guide better decision-making effortlessly.",
+    category: "🎉 Events & Vibes",
+    title: "Tech + Fun = GeekRoom Life",
+    details:
+      "Workshops, hackathons, gaming nights aur Delhi ke sabse bade fests — yaha boredom naam ki cheez exist hi nahi karti. 🔥",
+    tutorialLink: "#",
   },
   {
-    icon: Workflow,
-    title: "Streamlined Workflow",
-    description:
-      "Save time with automation and well-integrated tools, making your daily tasks easy to manage.",
+    category: "🌐 Global Exposure",
+    title: "Sirf Local Nahi, Global Ja!",
+    details:
+      "20+ international chapters, collabs aur hackathons — Matlab GeekRoom ke through tu apna global naam bana lega. 🌍",
+    tutorialLink: "#",
   },
   {
-    icon: Save,
-    title: "Auto Save & History",
-    description:
-      "Your work is automatically saved and maintained, so you can revisit and continue anytime without losing progress.",
-  },
-  {
-    icon: Sparkles,
-    title: "Export & Share",
-    description:
-      "Download, export, and share results instantly with built-in export features for complete flexibility.",
+    category: "💡 Skill Upgrade",
+    title: "Naye tools, Nayi soch!",
+    details:
+      "AI, Web3, App Dev, ML — sab kuch practical projects ke through seekh. Certification se jyada, portfolio heavy banega. 📈",
+    tutorialLink: "#",
   },
 ];
 
 const Features = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="max-w-screen-lg w-full py-12 px-6">
-        {/* Heading with animation */}
+    <div className="min-h-screen flex items-center justify-center bg-black">
+      <div className="max-w-screen-lg w-full py-10 px-6">
+        {/* Heading Animation */}
         <motion.h2
-          className="text-4xl md:text-5xl md:leading-[3.5rem] font-bold tracking-tight max-w-lg 
-          bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text text-transparent"
+          className="text-4xl md:text-5xl md:leading-[3.5rem] font-bold tracking-tight max-w-xl md:text-center md:mx-auto bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent drop-shadow-lg"
           initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          viewport={{ once: true }}
         >
-          Power Up with Smart AI Features
+          GeekRoom Join Karna = Life Upgrade 💯
         </motion.h2>
 
-        <div className="mt-6 md:mt-8 w-full mx-auto grid md:grid-cols-2 gap-12">
-          {/* Accordion Section */}
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={{
-              hidden: { opacity: 0, y: 40 },
-              visible: {
-                opacity: 1,
-                y: 0,
-                transition: { staggerChildren: 0.15 },
-              },
-            }}
-          >
-            <Accordion defaultValue="item-0" type="single" className="w-full">
-              {features.map(({ title, description, icon: Icon }, index) => (
-                <motion.div
-                  key={index}
-                  variants={{
-                    hidden: { opacity: 0, y: 20 },
-                    visible: { opacity: 1, y: 0 },
-                  }}
-                >
-                  <AccordionItem
-                    value={`item-${index}`}
-                    className="data-[state=open]:border-b-2 data-[state=open]:border-primary"
-                  >
-                    <AccordionTrigger className="text-lg [&>svg]:hidden">
-                      <div className="flex items-center gap-4">
-                        <Icon className="text-violet-500" />
-                        <span className="bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text text-transparent font-semibold">
-                          {title}
-                        </span>
-                      </div>
-                    </AccordionTrigger>
-                    <AccordionContent className="text-[17px] leading-relaxed text-muted-foreground">
-                      {description}
-                      <div className="mt-6 mb-2 md:hidden aspect-video w-full bg-muted rounded-xl" />
-                    </AccordionContent>
-                  </AccordionItem>
-                </motion.div>
-              ))}
-            </Accordion>
-          </motion.div>
+        <div className="mt-8 md:mt-16 w-full mx-auto space-y-20">
+          {features.map((feature, i) => (
+            <motion.div
+              key={feature.category}
+              className="flex flex-col md:flex-row items-center gap-x-20 gap-y-6 md:odd:flex-row-reverse"
+              initial={{ opacity: 0, y: 60 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: i * 0.2 }}
+              whileHover={{ scale: 1.02 }}
+            >
+              {/* Image / Icon Box */}
+              <motion.div
+                className="w-full aspect-[6/4] bg-gradient-to-r from-orange-400/30 to-green-400/30 rounded-xl border border-white/20 basis-1/2 flex items-center justify-center text-4xl text-white shadow-md"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 200 }}
+              >
+                {feature.category}
+              </motion.div>
 
-          {/* Media Section with fade-in */}
-          <motion.div
-            className="hidden md:block w-full h-full bg-muted rounded-xl"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <Image
-              src={"https://edure.in/wp-content/uploads/2025/02/ai-tools.webp"}
-              alt="image"
-              height={300}
-              width={300}
-              className="w-full h-full object-cover rounded-xl  "
-            />
-          </motion.div>
+              {/* Text Section */}
+              <motion.div
+                className="basis-1/2 shrink-0 text-left md:text-left"
+                initial={{ opacity: 0, x: i % 2 === 0 ? -40 : 40 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: i * 0.25 }}
+              >
+                <span className="uppercase font-semibold text-sm text-orange-400">
+                  {feature.category}
+                </span>
+                <h4 className="my-3 text-3xl font-semibold tracking-tight text-white">
+                  {feature.title}
+                </h4>
+                <p className="text-gray-300 text-[17px]">{feature.details}</p>
+                <motion.div whileHover={{ scale: 1.08 }}>
+                  <Button
+                    asChild
+                    className="mt-6 rounded-full min-w-40 text-[15px] bg-gradient-to-r from-orange-500 to-green-500 text-white shadow-lg hover:scale-105 transition-all"
+                  >
+                    <Link href={feature.tutorialLink}>
+                      Learn More <ArrowRight className="ml-1" />
+                    </Link>
+                  </Button>
+                </motion.div>
+              </motion.div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </div>
