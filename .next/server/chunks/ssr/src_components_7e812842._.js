@@ -265,8 +265,8 @@ const features = [
     },
     {
         category: "🌐 Global Exposure",
-        title: "Sirf Local Nahi, Global Ja!",
-        details: "20+ international chapters, collabs aur hackathons — Matlab GeekRoom ke through tu apna global naam bana lega. 🌍",
+        title: "Sirf college tak Nahi, nation tak Ja!",
+        details: "20+ national chapters, collabs aur hackathons — Matlab GeekRoom ke through tu apna nation naam bana lega. 🌍",
         tutorialLink: "#"
     },
     {
@@ -883,7 +883,7 @@ const Hero = ()=>{
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Extra$2f$GradientBlinds$2f$GradientBlinds$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     gradientColors: [
                         "#FF914D",
-                        "#00C853"
+                        "#64D9FA"
                     ],
                     angle: 0,
                     noise: 0.3,
@@ -891,7 +891,7 @@ const Hero = ()=>{
                     blindMinWidth: 50,
                     spotlightRadius: 0.5,
                     spotlightSoftness: 1,
-                    spotlightOpacity: 1,
+                    spotlightOpacity: 0.8,
                     mouseDampening: 0.15,
                     distortAmount: 0,
                     shineDirection: "left",
@@ -928,7 +928,7 @@ const Hero = ()=>{
                         transition: {
                             duration: 1
                         },
-                        className: "text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tight  bg-gradient-to-r from-orange-500 via-orange-400 to-green-500  bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(255,255,255,0.35)]",
+                        className: "text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tight text-white drop-shadow-[0_0_25px_rgba(255,255,255,0.35)]",
                         children: "Geek Room"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Custom/Hero.tsx",
@@ -948,11 +948,11 @@ const Hero = ()=>{
                             duration: 1,
                             delay: 0.2
                         },
-                        className: "mt-4 text-2xl sm:text-3xl md:text-4xl font-bold !leading-[1.3] tracking-tight  bg-gradient-to-r from-orange-300 via-orange-400 to-green-400  bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(255,255,255,0.25)]",
+                        className: "mt-4 text-2xl sm:text-3xl md:text-4xl font-bold !leading-[1.3] tracking-tight  bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400  bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(255,255,255,0.25)]",
                         children: "One of India’s Largest Technical Communities"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Custom/Hero.tsx",
-                        lineNumber: 48,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -971,11 +971,11 @@ const Hero = ()=>{
                             "Welcome to",
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-semibold bg-gradient-to-r from-orange-300 via-orange-400 to-green-400  bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(255,255,255,0.35)]",
+                                className: "font-semibold bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(255,255,255,0.35)]",
                                 children: "GeekRoom MSIT"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 68,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             "— the main hub of the GeekRoom global community. With",
@@ -985,7 +985,7 @@ const Hero = ()=>{
                                 children: "75k+ coders"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 75,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             ",",
@@ -995,7 +995,7 @@ const Hero = ()=>{
                                 children: "20+ active chapters"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 76,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             ", and",
@@ -1005,7 +1005,7 @@ const Hero = ()=>{
                                 children: "25+ hackathons"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 78,
+                                lineNumber: 76,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             " ",
@@ -1013,7 +1013,7 @@ const Hero = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Custom/Hero.tsx",
-                        lineNumber: 60,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1039,14 +1039,14 @@ const Hero = ()=>{
                                         children: "75k+ Coders"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Custom/Hero.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 94,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     " — Building one of the largest dev communities in India."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 91,
+                                lineNumber: 89,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1057,14 +1057,14 @@ const Hero = ()=>{
                                         children: "Hackathons & Events"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Custom/Hero.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 102,
                                         columnNumber: 16
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     " — 25+ hackathons, fests & workshops including international collabs."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 99,
+                                lineNumber: 97,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1075,20 +1075,20 @@ const Hero = ()=>{
                                         children: "Global Network"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Custom/Hero.tsx",
-                                        lineNumber: 112,
+                                        lineNumber: 110,
                                         columnNumber: 16
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     " — 20+ chapters worldwide, connecting developers everywhere."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 107,
+                                lineNumber: 105,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Custom/Hero.tsx",
-                        lineNumber: 85,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1114,18 +1114,18 @@ const Hero = ()=>{
                                     className: "!h-6 !w-6 ml-2"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Custom/Hero.tsx",
-                                    lineNumber: 128,
+                                    lineNumber: 126,
                                     columnNumber: 26
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/Custom/Hero.tsx",
-                            lineNumber: 124,
+                            lineNumber: 122,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Custom/Hero.tsx",
-                        lineNumber: 118,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]

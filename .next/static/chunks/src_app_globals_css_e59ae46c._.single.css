@@ -178,6 +178,7 @@
     --color-orange-500: #fe6e00;
     --color-green-400: #05df72;
     --color-green-500: #00c758;
+    --color-cyan-400: #00d2ef;
     --color-violet-500: #8d54ff;
     --color-violet-600: #7f22fe;
     --color-purple-400: #c07eff;
@@ -247,6 +248,7 @@
       --color-orange-500: color(display-p3 .946589 .449788 .0757345);
       --color-green-400: color(display-p3 .399536 .862346 .49324);
       --color-green-500: color(display-p3 .308734 .774754 .374307);
+      --color-cyan-400: color(display-p3 .294638 .813991 .934996);
       --color-violet-500: color(display-p3 .523372 .329605 .990884);
       --color-violet-600: color(display-p3 .459951 .162666 .957985);
       --color-purple-400: color(display-p3 .719919 .492497 .995173);
@@ -268,6 +270,7 @@
       --color-orange-500: lab(64.272% 57.1788 90.3583);
       --color-green-400: lab(78.503% -64.9265 39.7492);
       --color-green-500: lab(70.5521% -66.5147 45.8073);
+      --color-cyan-400: lab(76.6045% -40.9406 -29.6231);
       --color-violet-500: lab(49.9355% 55.1776 -81.8963);
       --color-violet-600: lab(41.088% 68.9966 -91.995);
       --color-purple-400: lab(63.6946% 47.6127 -59.2066);
@@ -1515,6 +1518,12 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
+  .via-green-400 {
+    --tw-gradient-via: var(--color-green-400);
+    --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+
   .via-orange-400 {
     --tw-gradient-via: var(--color-orange-400);
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
@@ -1567,6 +1576,11 @@
   .via-purple-500\/30 {
     --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-via-stops);
+  }
+
+  .to-cyan-400 {
+    --tw-gradient-to: var(--color-cyan-400);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
   .to-green-400 {

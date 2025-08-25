@@ -12,14 +12,14 @@ const Hero = () => {
       {/* Sexy Gradient Background */}
       <div className="absolute inset-0 z-0">
         <GradientBlinds
-          gradientColors={["#FF914D", "#00C853"]} // Orange to Green
+          gradientColors={["#FF914D", "#64D9FA"]} // Orange to Green
           angle={0}
           noise={0.3}
           blindCount={12}
           blindMinWidth={50}
           spotlightRadius={0.5}
           spotlightSoftness={1}
-          spotlightOpacity={1}
+          spotlightOpacity={0.8}
           mouseDampening={0.15}
           distortAmount={0}
           shineDirection="left"
@@ -37,9 +37,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tight 
-                     bg-gradient-to-r from-orange-500 via-orange-400 to-green-500 
-                     bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(255,255,255,0.35)]"
+          className="text-6xl sm:text-7xl md:text-8xl font-extrabold tracking-tight text-white drop-shadow-[0_0_25px_rgba(255,255,255,0.35)]"
         >
           Geek Room
         </motion.h1>
@@ -50,7 +48,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
           className="mt-4 text-2xl sm:text-3xl md:text-4xl font-bold !leading-[1.3] tracking-tight 
-                     bg-gradient-to-r from-orange-300 via-orange-400 to-green-400 
+                     bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400 
                      bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(255,255,255,0.25)]"
         >
           One of India’s Largest Technical Communities
@@ -66,7 +64,7 @@ const Hero = () => {
         >
           Welcome to{" "}
           <span
-            className="font-semibold bg-gradient-to-r from-orange-300 via-orange-400 to-green-400 
+            className="font-semibold bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400
                      bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(255,255,255,0.35)]"
           >
             GeekRoom MSIT
