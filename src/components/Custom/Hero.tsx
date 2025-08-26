@@ -55,7 +55,7 @@ const Hero = () => {
         </motion.h2>
 
         {/* Intro Text */}
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
@@ -77,7 +77,7 @@ const Hero = () => {
           (including Delhi’s biggest and an international one), we’re more than
           a society — we’re a movement of passionate developers, innovators, and
           tech leaders of tomorrow.
-        </motion.p>
+        </motion.p> */}
 
         {/* Stats Cards (same as before) */}
         <motion.div
