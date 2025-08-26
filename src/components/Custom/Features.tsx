@@ -49,7 +49,7 @@ const Features = () => {
       <div className="max-w-screen-lg w-full py-10 px-6">
         {/* Heading Animation */}
         <motion.h2
-          className="text-4xl md:text-5xl md:leading-[3.5rem] font-bold tracking-tight max-w-xl md:text-center md:mx-auto bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent drop-shadow-lg"
+          className="text-4xl md:text-5xl md:leading-[3.5rem] font-bold tracking-tight max-w-xl md:text-center md:mx-auto bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400  bg-clip-text text-transparent drop-shadow-lg"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -95,7 +95,7 @@ const Features = () => {
                 <motion.div whileHover={{ scale: 1.08 }}>
                   <Button
                     asChild
-                    className="mt-6 rounded-full min-w-40 text-[15px] bg-gradient-to-r from-orange-500 to-green-500 text-white shadow-lg hover:scale-105 transition-all"
+                    className="mt-6 rounded-full min-w-40 text-[15px] bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400 shadow-lg hover:scale-105 transition-all"
                   >
                     <Link href={feature.tutorialLink}>
                       Learn More <ArrowRight className="ml-1" />

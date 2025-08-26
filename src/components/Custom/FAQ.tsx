@@ -56,7 +56,7 @@ const FAQ = () => {
         {/* Heading Animation */}
         <motion.h2
           className="text-4xl md:text-5xl font-bold tracking-tight text-center 
-          bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent"
+          bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400  bg-clip-text text-transparent"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -89,13 +89,13 @@ const FAQ = () => {
             >
               <div
                 className="h-10 w-10 flex items-center justify-center rounded-full 
-              bg-gradient-to-r from-orange-500 to-green-500 text-white shadow-md"
+              bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400  text-white shadow-md"
               >
                 <Icon className="w-5 h-5" />
               </div>
               <div
                 className="mt-5 mb-2 text-[1.35rem] font-semibold tracking-tight 
-              bg-gradient-to-r from-orange-400 to-green-500 bg-clip-text text-transparent"
+              bg-gradient-to-r ffrom-orange-300 via-green-400 to-cyan-400 bg-clip-text text-transparent"
               >
                 {question}
               </div>
