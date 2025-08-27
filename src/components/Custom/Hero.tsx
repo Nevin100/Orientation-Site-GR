@@ -91,8 +91,8 @@ const Hero = () => {
                font-medium text-white shadow-lg transition-all duration-300 hover:scale-[1.05] 
                hover:bg-gradient-to-r from-orange-500/20 to-green-500/20"
           >
-            ⚡ <strong>75k+ Coders</strong> — Building one of the largest dev
-            communities in India.
+            ⚡ <strong>1.5lakhs+ Coders</strong> — Building one of the largest
+            technical communities in India.
           </div>
           <div
             className="p-5 rounded-2xl bg-white/10 border border-white/20 backdrop-blur-md 
@@ -107,7 +107,7 @@ const Hero = () => {
                font-medium text-white shadow-lg transition-all duration-300 hover:scale-[1.05] 
                hover:bg-gradient-to-r from-orange-500/20 to-green-500/20"
           >
-            🌐 <strong>Global Network</strong> — 20+ chapters worldwide,
+            🌐 <strong>Strong Network</strong> — 20+ chapters Nation wide,
             connecting developers everywhere.
           </div>
         </motion.div>

@@ -57,7 +57,7 @@ const FAQ = ()=>{
             className: "max-w-screen-lg",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
-                    className: "text-4xl md:text-5xl font-bold tracking-tight text-center  bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent",
+                    className: "text-4xl md:text-5xl font-bold tracking-tight text-center  bg-gradient-to-r from-orange-400 via-green-400 to-cyan-400  bg-clip-text text-transparent",
                     initial: {
                         opacity: 0,
                         y: 30
@@ -118,7 +118,7 @@ const FAQ = ()=>{
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "h-10 w-10 flex items-center justify-center rounded-full  bg-gradient-to-r from-orange-500 to-green-500 text-white shadow-md",
+                                    className: "h-10 w-10 flex items-center justify-center rounded-full  bg-gradient-to-r from-orange-500 via-green-400 to-cyan-400  text-white shadow-md",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
                                         className: "w-5 h-5"
                                     }, void 0, false, {
@@ -132,7 +132,7 @@ const FAQ = ()=>{
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mt-5 mb-2 text-[1.35rem] font-semibold tracking-tight  bg-gradient-to-r from-orange-400 to-green-500 bg-clip-text text-transparent",
+                                    className: "mt-5 mb-2 text-[1.35rem] font-semibold tracking-tight  bg-gradient-to-r from-orange-500 via-green-400 to-cyan-400 bg-clip-text text-transparent",
                                     children: question
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Custom/FAQ.tsx",
@@ -248,25 +248,25 @@ const features = [
     {
         category: "🚀 Coding & Dev",
         title: "Banega asli Developer",
-        details: "GeekRoom join karne ka matlab hai hackathons jeetna, open-source contribute karna aur apne skills se duniya ko impress karna. ⚡",
+        details: "GeekRoom join karne ka matlab hai hackathons jeetna, open-source contribute karna aur apne skills se sabko impress karna. ⚡",
         tutorialLink: "#"
     },
     {
         category: "🎤 Networking",
         title: "Connections hi Currency hai!",
-        details: "Yaha tu 75k+ coders, mentors aur industry experts se milega. Collabs kar, internships crack kar aur apna LinkedIn glow-up dekh. 💼",
+        details: "Yaha tu 1.5Lakhs+ coders, mentors aur industry experts se milega. Collabs kar, internships crack kar aur apna LinkedIn glow-up dekh. 💼",
         tutorialLink: "#"
     },
     {
         category: "🎉 Events & Vibes",
         title: "Tech + Fun = GeekRoom Life",
-        details: "Workshops, hackathons, gaming nights aur Delhi ke sabse bade fests — yaha boredom naam ki cheez exist hi nahi karti. 🔥",
+        details: "Workshops, hackathons, coding and fun nights aur Delhi ke sabse bade fests — yaha boredom naam ki cheez exist hi nahi karti. 🔥",
         tutorialLink: "#"
     },
     {
         category: "🌐 Global Exposure",
-        title: "Sirf college tak Nahi, nation tak Ja!",
-        details: "20+ national chapters, collabs aur hackathons — Matlab GeekRoom ke through tu apna nation naam bana lega. 🌍",
+        title: "Sirf college tak Nahi,pure nation tak Ja!",
+        details: "20+ chapters across nation; collabs aur hackathons — Matlab GeekRoom ke through tu apna nation ka naam bana lega. 🌍",
         tutorialLink: "#"
     },
     {
@@ -283,7 +283,7 @@ const Features = ()=>{
             className: "max-w-screen-lg w-full py-10 px-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].h2, {
-                    className: "text-4xl md:text-5xl md:leading-[3.5rem] font-bold tracking-tight max-w-xl md:text-center md:mx-auto bg-gradient-to-r from-orange-400 via-orange-500 to-green-500 bg-clip-text text-transparent drop-shadow-lg",
+                    className: "text-4xl md:text-5xl md:leading-[3.5rem] font-bold tracking-tight max-w-xl md:text-center md:mx-auto bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400  bg-clip-text text-transparent drop-shadow-lg",
                     initial: {
                         opacity: 0,
                         y: 40
@@ -388,7 +388,7 @@ const Features = ()=>{
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                 asChild: true,
-                                                className: "mt-6 rounded-full min-w-40 text-[15px] bg-gradient-to-r from-orange-500 to-green-500 text-white shadow-lg hover:scale-105 transition-all",
+                                                className: "mt-6 rounded-full min-w-40 text-[15px] bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400 shadow-lg hover:scale-105 transition-all",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     href: feature.tutorialLink,
                                                     children: [
@@ -955,67 +955,6 @@ const Hero = ()=>{
                         lineNumber: 46,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].p, {
-                        initial: {
-                            opacity: 0
-                        },
-                        animate: {
-                            opacity: 1
-                        },
-                        transition: {
-                            duration: 1,
-                            delay: 0.4
-                        },
-                        className: "mt-6 text-lg sm:text-xl md:text-2xl leading-relaxed max-w-3xl mx-auto text-gray-100 drop-shadow-[0_0_8px_rgba(0,0,0,0.5)]",
-                        children: [
-                            "Welcome to",
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-semibold bg-gradient-to-r from-orange-300 via-green-400 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(255,255,255,0.35)]",
-                                children: "GeekRoom MSIT"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 66,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            "— the main hub of the GeekRoom global community. With",
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-medium text-white/90",
-                                children: "75k+ coders"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 73,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            ",",
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-medium text-white/90",
-                                children: "20+ active chapters"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 74,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            ", and",
-                            " ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-medium text-white/90",
-                                children: "25+ hackathons"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/Custom/Hero.tsx",
-                                lineNumber: 76,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            " ",
-                            "(including Delhi’s biggest and an international one), we’re more than a society — we’re a movement of passionate developers, innovators, and tech leaders of tomorrow."
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/Custom/Hero.tsx",
-                        lineNumber: 58,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                         initial: {
                             opacity: 0,
@@ -1036,13 +975,13 @@ const Hero = ()=>{
                                 children: [
                                     "⚡ ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "75k+ Coders"
+                                        children: "1.5lakhs+ Coders"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Custom/Hero.tsx",
                                         lineNumber: 94,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    " — Building one of the largest dev communities in India."
+                                    " — Building one of the largest technical communities in India."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",
@@ -1072,13 +1011,13 @@ const Hero = ()=>{
                                 children: [
                                     "🌐 ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                        children: "Global Network"
+                                        children: "Strong Network"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Custom/Hero.tsx",
                                         lineNumber: 110,
                                         columnNumber: 16
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    " — 20+ chapters worldwide, connecting developers everywhere."
+                                    " — 20+ chapters Nation wide, connecting developers everywhere."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Custom/Hero.tsx",

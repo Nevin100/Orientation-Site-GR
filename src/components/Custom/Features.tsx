@@ -10,28 +10,28 @@ const features = [
     category: "🚀 Coding & Dev",
     title: "Banega asli Developer",
     details:
-      "GeekRoom join karne ka matlab hai hackathons jeetna, open-source contribute karna aur apne skills se duniya ko impress karna. ⚡",
+      "GeekRoom join karne ka matlab hai hackathons jeetna, open-source contribute karna aur apne skills se sabko impress karna. ⚡",
     tutorialLink: "#",
   },
   {
     category: "🎤 Networking",
     title: "Connections hi Currency hai!",
     details:
-      "Yaha tu 75k+ coders, mentors aur industry experts se milega. Collabs kar, internships crack kar aur apna LinkedIn glow-up dekh. 💼",
+      "Yaha tu 1.5Lakhs+ coders, mentors aur industry experts se milega. Collabs kar, internships crack kar aur apna LinkedIn glow-up dekh. 💼",
     tutorialLink: "#",
   },
   {
     category: "🎉 Events & Vibes",
     title: "Tech + Fun = GeekRoom Life",
     details:
-      "Workshops, hackathons, gaming nights aur Delhi ke sabse bade fests — yaha boredom naam ki cheez exist hi nahi karti. 🔥",
+      "Workshops, hackathons, coding and fun nights aur Delhi ke sabse bade fests — yaha boredom naam ki cheez exist hi nahi karti. 🔥",
     tutorialLink: "#",
   },
   {
     category: "🌐 Global Exposure",
-    title: "Sirf college tak Nahi, nation tak Ja!",
+    title: "Sirf college tak Nahi,pure nation tak Ja!",
     details:
-      "20+ national chapters, collabs aur hackathons — Matlab GeekRoom ke through tu apna nation naam bana lega. 🌍",
+      "20+ chapters across nation; collabs aur hackathons — Matlab GeekRoom ke through tu apna nation ka naam bana lega. 🌍",
     tutorialLink: "#",
   },
   {
